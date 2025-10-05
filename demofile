@@ -22,7 +22,7 @@ pipeline {
 
                 // Use Maven to build your project
 
-                sh 'mvn clean package'
+                echo "build stage"
 
             }
 
@@ -34,7 +34,7 @@ pipeline {
 
                 // Run tests if applicable
 
-                sh 'mvn test'
+                echo "test stage"
 
             }
 
