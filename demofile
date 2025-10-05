@@ -10,7 +10,7 @@ pipeline {
 
                 // Checkout your source code from version control
 
-                git 'https://github.com/monishgowda045/demo-maven.git'
+                git 'https://github.com/hkshitesh/Demo-Maven-Repo.git'
 
             }
 
@@ -22,7 +22,7 @@ pipeline {
 
                 // Use Maven to build your project
 
-                echo "build stage"
+                echo "Build Stage"
 
             }
 
@@ -34,11 +34,13 @@ pipeline {
 
                 // Run tests if applicable
 
-                echo "test stage"
+                echo 'Test Stage'
 
             }
 
         }
+
+    
 
     }
 
